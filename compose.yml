@@ -2,8 +2,8 @@
    api-students:
      build: ./api-students
      ports:
-       - 8000:8000
+       - 8000:8081
    websimple:
      build: ./websimple
      ports:
-       - 8081:80
+       - 8080:80
